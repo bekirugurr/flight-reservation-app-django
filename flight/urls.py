@@ -1,4 +1,4 @@
-from django.urls import path, include
+
 from rest_framework import routers
 from .views import FlightView, ReservationView
 
@@ -8,7 +8,7 @@ router.register('resv', ReservationView)
 
 
 urlpatterns = [
-    # path("", include(router.urls)), # alttakini kullandım
-] 
+    # path('', include(router.urls)) # Bu şekilde de eklemeyle alttaki ekleme aynısı. Alttakini seçtim
+]
 
 urlpatterns += router.urls

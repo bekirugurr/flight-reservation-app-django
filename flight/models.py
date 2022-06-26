@@ -23,7 +23,11 @@ class Passenger(models.Model):
         return f'{self.first_name} - {self.last_name}'
 
 
-#! niye related_name kullanıyoruz. Flight parent gibi Reservation chield gibi. Chield a parenti bağladık ama parent in bundan haberi yok.
+#! niye related_name kullanıyoruz. Flight parent gibi Reservation chield gibi. Chield a parenti bağladık ama parent in bundan haberi yok. parent dan child e ulaşmak için related_name i kullanıyoruz
+
+#! çünkü Reservation a ait bir res objesi üzerinden res.flight.arrival_city deyince chield (reservation)dan parent(flight) a ulaşabiliyorum. Aynı şekilde parentten chield a ulaşmak için releated_name'i (burada reservations) kullanıyoruz. Flight objesi f1 olsun f1.reservations.all() diyerek ulaşıyoruz
+
+#? iki related name vermek çok doğru değl ama. bu projede öyle verdim.
 
 class Reservation(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
