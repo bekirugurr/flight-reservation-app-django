@@ -53,7 +53,7 @@ class RegisterSerializer(serializers.ModelSerializer):
         return user
 
 
-
+#! login de normalde sadece token key döner. Login olunca token key ile birlikte user bilgilerini de dönmesi için aşağıdaki kodu ekledim
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
