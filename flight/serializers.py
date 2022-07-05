@@ -76,12 +76,8 @@ class ReservationSerializer(serializers.ModelSerializer):
 
         passenger_data = validated_data.get('passenger')
         for passenger in passenger_data:
-            # passenger key=value şeklinde dict değil de liste içende tuple lar olduğu için aşağıdaki satırla dict e çevirdim
-            pas_dict = dict(passenger) 
-            if len(pas_dict) == 5: # burada if pas_dict['id'] dersek hata veriyor. bu aslında "passenger_id var mı" demek
-                passenger_id = pas_dict['id'] 
-            else:
-                passenger_id = False
+
+            passenger_id = passenger.get('id',None) # Kayıtlı passenger varsa id sini getirip update edeceğim, yoksa yeni passenger oluşturacağım 
 
             if passenger_id:
                 pas = Passenger.objects.get(id=passenger_id)
