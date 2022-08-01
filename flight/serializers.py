@@ -25,11 +25,11 @@ class PassengerSerializer(serializers.ModelSerializer):
         fields = '__all__'
         
         
-#! get yaptığımızda flight_id ve user_id gözükmüyorken neden koydum. Çünkü reservation instance ı oluştururken (post yaparken) read_only olan StringRelatedField ler flight ve user ı kullanamıyorum. O yüzden reservation oluştururken write only olan flight_id ve user_id yi kullanıyorum. writeonly olan bunlarla oluşturuyor ama read only olan flight ve user la read işlemi yapıyorum
+#! get yaptığımızda flight_id ve user_id gözükmüyorken neden koydum: Çünkü reservation instance ı oluştururken (post yaparken) read_only olan StringRelatedField ler flight ve user ı kullanamıyorum. O yüzden reservation oluştururken write only olan flight_id ve user_id yi kullanıyorum. writeonly olan bunlarla oluşturuyor ama read only olan flight ve user la read işlemi yapıyorum
 
 #! Ama 4 ünü de fiels tupple ı içine yazmak lazım. Yoksa hata verir
 
-#! Eğer aşağıdaki nested yapıyı yapmasaydık serializer bize sadece {"flight_id": 1, "user_id": 1, "passenger": [3, 6] } gibi okuyan için anlamsız gelecek bir output dönecekti. Nested serializer ile okunaklı bi çıktı verdik
+#! Eğer aşağıdaki nested yapıyı yapmasaydık serializer bize sadece {"flight_id": 1, "user_id": 1, "passenger": [3, 6] } gibi okuyan için anlamsız gelecek bir output dönecekti. Nested serializer ile okunaklı bi çıktı verdim
 
 
 class ReservationSerializer(serializers.ModelSerializer):

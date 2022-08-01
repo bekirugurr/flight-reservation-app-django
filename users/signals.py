@@ -4,7 +4,7 @@ from django.dispatch import receiver
 from rest_framework.authtoken.models import Token
 
 
-#! signal oluştururken apps.py dosyasında UserConfig in içine/altına alttakini eklemez isek signal çalışmaz/onu görmez. O kodun anlamı "proje çalıştığında signalleri çalıştır" demekmiş
+#! signal oluştururken apps.py dosyasında UserConfig in içine/altına alttakini eklemez isek signal çalışmaz/onu görmez. O kodun anlamı "proje çalıştığında signalleri çalıştır" demek
 """
 def ready(self):
     import users.signals

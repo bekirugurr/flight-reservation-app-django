@@ -68,7 +68,7 @@ class UserSerializer(serializers.ModelSerializer):
 class CustomTokenSerializer(TokenSerializer):
     user = UserSerializer(read_only=True)
 
-    class Meta(TokenSerializer.Meta):    #! Burası önemli. Bu parantez ile birlikte üzerine yazmanın yanı sıra önceden var olanları inherit ettik
+    class Meta(TokenSerializer.Meta):    #! Burası önemli. Bu parantez ile birlikte üzerine yazmanın yanı sıra önceden var olanları inherit ettim
         fields =(
             'key',
             'user'
