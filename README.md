@@ -1,9 +1,7 @@
 # Flight Reservation API
-
 <p><a href="#"><img src="https://user-images.githubusercontent.com/94041207/182887053-c5c9c8cf-9182-48a6-aa02-800ee0e5e24f.png"  alt="django rest framework" height="30"> </a>  <a href="#"> <img src="https://logos-download.com/wp-content/uploads/2018/09/SQLite_Logo-450x193.png"  alt="sqlite" height="30"> </a>  <a href="#"> <img src="https://icon-library.com/images/postgresql-icon/postgresql-icon-13.jpg"  alt="postgresql" height="30"> </a>  <a href="#"> <img src="https://user-images.githubusercontent.com/94041207/182912844-075185f7-3c3f-4d77-9f49-740dbdadd14d.png"  alt="heroku" height="30"></a> </p>
-
 ## Preview of the project:
-
+![flight_API](https://user-images.githubusercontent.com/94041207/187237806-6144a7d0-cf64-4a23-9f27-f6d370dea5dd.gif)
 ## Description 
 In this project, I aimed to develope an application with the following features:
 * Register, login, logout operations can be done.
@@ -13,9 +11,7 @@ In this project, I aimed to develope an application with the following features:
 * Admin users can see all reservations. 
 * Authenticated users can only see the reservations they have made 
 * Authenticated users can create, update and delete reservations. (Both PUT and PATCH can be done)
-
 ## What is in the project?   
-
 * Whole project was made by using <img src="https://user-images.githubusercontent.com/94041207/182887053-c5c9c8cf-9182-48a6-aa02-800ee0e5e24f.png"  alt="django rest framework" height="30">
 * In developoment process database is <img src="https://logos-download.com/wp-content/uploads/2018/09/SQLite_Logo-450x193.png"  alt="sqlite" height="30">
 * In production process database is <img src="https://icon-library.com/images/postgresql-icon/postgresql-icon-13.jpg"  alt="postgresql" height="30"> 
@@ -29,11 +25,11 @@ In this project, I aimed to develope an application with the following features:
 * **Swagger**, **redoc**, **debug toolbar** were used. And debug was made true for other users to check easily. 
 * **Some methods were overridden** to create custom functionalities.
 
-# If you want to check out project with Postman (strongly advised 😎):
+## If you want to check out the project with Postman (strongly advised 😎):
 * For admin user **username: <u>admin</u>** and **password: <u>admin</u>**
 * If you can use swagger use https://django-flight-reservation-api.herokuapp.com/swagger/
 * If you can use swagger use https://django-flight-reservation-api.herokuapp.com/redoc/
-## If you do not want to use swagger or redoc you can check project with Postman as below
+## If you do not want to use swagger or redoc you can check the project with Postman as below
 ### To register a user
 Send request with POST method to the url https://django-flight-reservation-api.herokuapp.com/users/register/  like this:
 ```python
