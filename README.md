@@ -138,5 +138,5 @@ Authenticated users can update only the reservations they have made
 You must be authenticated by login and using token key. Then send request with DELETE method to the url https://django-flight-reservation-api.herokuapp.com/flight/resv/{reservation_id}/
 Authenticated users can delete only the reservations they have made
 
-# After such a long explanation if you give a star it will be awesome 🎊🎉⭐
+# After this explanation if you give a star it will be awesome 🎊🎉⭐
 
