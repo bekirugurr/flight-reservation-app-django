@@ -2,7 +2,7 @@
 
 <p><a href="#"><img src="https://user-images.githubusercontent.com/94041207/182887053-c5c9c8cf-9182-48a6-aa02-800ee0e5e24f.png"  alt="django rest framework" height="30"> </a>  <a href="#"> <img src="https://logos-download.com/wp-content/uploads/2018/09/SQLite_Logo-450x193.png"  alt="sqlite" height="30"> </a>  <a href="#"> <img src="https://icon-library.com/images/postgresql-icon/postgresql-icon-13.jpg"  alt="postgresql" height="30"> </a>  <a href="#"> <img src="https://user-images.githubusercontent.com/94041207/182912844-075185f7-3c3f-4d77-9f49-740dbdadd14d.png"  alt="heroku" height="30"></a> </p>
 
-## Preview of the project:
+## Preview of the project on Postman:
 
 ![flight_API](https://user-images.githubusercontent.com/94041207/187237806-6144a7d0-cf64-4a23-9f27-f6d370dea5dd.gif)
 
