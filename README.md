@@ -1,6 +1,11 @@
 # Flight Reservation API
 
-<p><a href="#"><img src="https://user-images.githubusercontent.com/94041207/182887053-c5c9c8cf-9182-48a6-aa02-800ee0e5e24f.png"  alt="django rest framework" height="30"> </a>  <a href="#"> <img src="https://logos-download.com/wp-content/uploads/2018/09/SQLite_Logo-450x193.png"  alt="sqlite" height="30"> </a>  <a href="#"> <img src="https://icon-library.com/images/postgresql-icon/postgresql-icon-13.jpg"  alt="postgresql" height="30"> </a>  <a href="#"> <img src="https://user-images.githubusercontent.com/94041207/182912844-075185f7-3c3f-4d77-9f49-740dbdadd14d.png"  alt="heroku" height="30"></a> </p>
+<a href="https://www.python.org/"><img src="https://user-images.githubusercontent.com/94041207/199492900-766b0685-56b1-42fc-8510-a221f05de673.png" alt="python" height="30" data-canonical-src="https://www.python.org/static/img/python-logo.png" style="max-width: 100%;">   </a>
+<a href="https://www.djangoproject.com/"><img src="https://user-images.githubusercontent.com/94041207/199492944-09e06dfc-a246-48e5-9dea-08c57195fcbd.png" alt="django" height="30" data-canonical-src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" style="max-width: 100%;"></a>
+<a href="https://www.django-rest-framework.org/"><img src="https://user-images.githubusercontent.com/94041207/199345513-1a3bd338-9d8a-44a4-b3c4-e64b2ac7eed4.png" alt="django rest framework" height="30" style="max-width: 100%;"></a>
+<a href="https://www.sqlite.org/index.html"><img src="https://user-images.githubusercontent.com/94041207/199492996-de5eaa34-dc69-463a-a31d-8fc3a3dc7694.png" alt="SQLite" height="30" style="max-width: 100%;"></a>
+<a href="https://www.postgresql.org/"><img src="https://user-images.githubusercontent.com/94041207/199492963-9315ee83-5be9-43b3-aa14-ebdd9a869aea.png" alt="PostgreSQL" height="30" style="max-width: 100%;"></a>
+<a href="https://www.heroku.com/"> <img src="https://user-images.githubusercontent.com/94041207/199493654-70c90e3b-24e6-43ab-b700-b73977c6187c.png" alt="heroku" height="30" data-canonical-src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" style="max-width: 100%;"> </a>
 
 ## Preview of the project on Postman:
 
