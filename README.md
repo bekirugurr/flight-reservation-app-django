@@ -6,6 +6,7 @@
 <a href="https://www.sqlite.org/index.html"><img src="https://user-images.githubusercontent.com/94041207/199492996-de5eaa34-dc69-463a-a31d-8fc3a3dc7694.png" alt="SQLite" height="30" style="max-width: 100%;"></a>
 <a href="https://www.postgresql.org/"><img src="https://user-images.githubusercontent.com/94041207/199492963-9315ee83-5be9-43b3-aa14-ebdd9a869aea.png" alt="PostgreSQL" height="30" style="max-width: 100%;"></a>
 <a href="https://www.heroku.com/"> <img src="https://user-images.githubusercontent.com/94041207/199493654-70c90e3b-24e6-43ab-b700-b73977c6187c.png" alt="heroku" height="30" data-canonical-src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" style="max-width: 100%;"> </a>
+<a href="https://postman.com" rel="nofollow"> <img src="https://user-images.githubusercontent.com/94041207/199493662-5b0ab606-1e40-4aee-919e-f8bae4e65794.png" alt="postman" height="30" data-canonical-src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" style="max-width: 100%;"> </a>
 
 ## Preview of the project on Postman:
 
