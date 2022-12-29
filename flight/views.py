@@ -4,6 +4,8 @@ from .models import Flight, Passenger, Reservation
 from .serializers import FlightSerializer, ReservationSerializer, StaffFlightSerializer
 from .permissions import IsStafOrReadOnly
 from datetime import datetime, date
+from rest_framework.permissions import IsAuthenticated
+
 
 class FlightView(viewsets.ModelViewSet):
     queryset = Flight.objects.all()
@@ -35,6 +37,7 @@ class FlightView(viewsets.ModelViewSet):
 class ReservationView(viewsets.ModelViewSet):
     queryset = Reservation.objects.all()
     serializer_class = ReservationSerializer
+    permission_classes=(IsAuthenticated,)
     
     #! user, staff ise bütün reservasyonları göster, değilse sadece kendi yaptığı reservasyonları göster  
     def get_queryset(self):

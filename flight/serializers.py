@@ -37,8 +37,8 @@ class ReservationSerializer(serializers.ModelSerializer):
     passenger = PassengerSerializer(many=True, required=False)
     flight = serializers.StringRelatedField()  # default read_only=True
     user = serializers.StringRelatedField()  # default read_only=True
-    flight_id = serializers.IntegerField()
-    user_id = serializers.IntegerField(required=False) # Manuel oluşturmayıp otomatik çekeceğimiz için required=False yaptık
+    flight_id = serializers.IntegerField(write_only=True)
+    user_id = serializers.IntegerField(write_only=True, required=False) # Manuel oluşturmayıp otomatik çekeceğimiz için required=False yaptık
     class Meta:
         model = Reservation
         fields =(
